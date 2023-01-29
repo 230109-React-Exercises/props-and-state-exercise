@@ -1,6 +1,5 @@
 import React from 'react'
-import DataDisplayer from './DataDisplayer';
-import { DUMMY_DATA, Person } from './DataProvider'
+import { DUMMY_DATA } from './DataProvider'
 
 /**
  * This is the parent component that will be providing data to the child components

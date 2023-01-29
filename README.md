@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# Props and State
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this exercise, you will be working props and sending data from a parent component to a child component. The child component is where it will be displayed.
+The parent component has been created already but the child component will need to be created.
 
-## Available Scripts
+## Parent Component
 
-In the project directory, you can run:
+`DataContainer`<br>
+This component is responsible for holding the child components. It will receive the data from the `DataProvider.tsx` file.
+Use this component to setup the props for the child components.
+Each child component should have its own component for displaying. This is done to enforce the **Single Responsibility Principle**.
 
-### `npm start`
+## Requirements
+- Pull the repository into your local system and make a new branch
+- Create a child component responsible for rendering the data on the webpage
+- Use props to pass data from parent to child
+- Make a pull request to the main branch when you are complete
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This exercise should take about 30 minutes. Try to do as much as you can on your own instead of checking online, if you are still stuck then feel free to look online but make sure you understand what the solution is doing.
