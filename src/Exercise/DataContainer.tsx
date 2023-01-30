@@ -1,4 +1,5 @@
 import React from 'react'
+import DataDisplayer from './DataDisplayer';
 import { DUMMY_DATA } from './DataProvider'
 
 /**
@@ -13,6 +14,16 @@ export const DataContainer = () => {
   let data = DUMMY_DATA;
 
   return (
-    <div>DataContainer</div>
+    <>
+      <ul>
+        {
+          data.map(person => {
+            return(
+              <DataDisplayer person={person}/>
+            );
+          })
+        }
+      </ul>
+    </>
   )
 }

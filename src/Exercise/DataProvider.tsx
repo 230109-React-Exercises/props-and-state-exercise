@@ -32,3 +32,4 @@ export const DUMMY_DATA = [
   new Person(4, "Jimmy Schmidt", 26, COUNTRIES.USA),
   new Person(5, "James Joel", 26, COUNTRIES.USA),
 ]
+
