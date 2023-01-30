@@ -1,5 +1,6 @@
 import React from 'react'
 import { DUMMY_DATA } from './DataProvider'
+import DataDis from './DataDis';
 
 /**
  * This is the parent component that will be providing data to the child components
@@ -13,6 +14,16 @@ export const DataContainer = () => {
   let data = DUMMY_DATA;
 
   return (
-    <div>DataContainer</div>
+    <>
+      <ul>
+        {
+          data.map(person => {
+            return(
+              <DataDis person={person}/>
+            );
+          })
+        }
+      </ul>
+    </>
   )
 }
