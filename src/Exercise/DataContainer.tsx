@@ -13,6 +13,6 @@ export const DataContainer = () => {
   let data = DUMMY_DATA;
 
   return (
-    <div>DataContainer</div>
+    <div>{data.toString()}</div>
   )
 }
